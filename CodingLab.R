@@ -4,7 +4,7 @@
 
 # Preparation ----
 # Check if necessary packages have been installed or not. If not, install them
-necessaryPackages <- c("plyr", "raster", "RColorBrewer","RColorBrewer","rstudioapi","maptools")  
+necessaryPackages <- c("rgdal","raster","plyr", "RColorBrewer","maptools","rstudioapi", "ncdf4")  
 toInstallPackages <- necessaryPackages[!(necessaryPackages %in% installed.packages()[ , "Package"])]   
 if(length(toInstallPackages))
 {
@@ -21,6 +21,7 @@ library(plyr)
 library(RColorBrewer)
 library(maptools)
 library(rstudioapi)
+library(ncdf4)
 # Set the path of workspace to be the current folder
 scriptpath = rstudioapi::getActiveDocumentContext()$path 
 setwd(dirname(scriptpath))
