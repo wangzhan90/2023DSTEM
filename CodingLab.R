@@ -1,5 +1,5 @@
 # Coding lab for "The Magic of Where:How Spatial Data Strengthen Insights into the World"
-# By Zhan Wang PhD, Department of Agricultural Economics, Purdue University (zhanwang@purdue.edu)
+# By Zhan Wang, Department of Agricultural Economics, Purdue University (zhanwang@purdue.edu)
 # June 21, 2023
 
 # Preparation ----
